@@ -6,6 +6,7 @@ const server = http.createServer((req, res) => {
     return;
   }
   if (req.url === "/about") {
+    //Block code
     for (let i = 0; i < 1000; i++) {
       for (let j = 0; j < 100; j++) {
         console.log(`${i} ${j}`);
